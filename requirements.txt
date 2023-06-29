@@ -1,0 +1,7 @@
+Flask
+pandas
+tensorflow
+scikit-learn
+beautifulsoup4
+torch
+numpy

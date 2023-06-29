@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Classifier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        /* CSS for color change on button click */
+        .color-change-button {
+            transition: background-color 0.3s ease;
+        }
+        .color-change-button:hover {
+            background-color: lightblue;
+        }
+
+        /* CSS for signature */
+        .signature {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 16px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the News Article Classifier</h1>
+        <p>Enter the URL of a news article to classify its category:</p>
+        <form action="/predict" method="POST">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" name="url" placeholder="Enter URL" required>
+                <button class="btn btn-primary color-change-button" type="submit">Classify</button>
+            </div>
+        </form>
+    </div>
+    <p class="signature">This web app is made by Shibkumar Saraf</p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    
+    <script>
+        const signature = document.querySelector('.signature');
+        window.addEventListener('click', function() {
+            signature.style.color = 'red';
+        });
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Article Classification Results</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        
+        .result-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #eaf1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .category-name {
+            color: rgba(255, 0, 0, 0.826);
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-container">
+        <h1>News Article Classification Results</h1>
+        
+        <h2 class="mb-3">Predicted Category:</h2>
+        <p class="category-name">{{ predicted_class }}</p>
+        
+        <h2 class="mt-5">URL:</h2>
+        <p>{{ url }}</p>
+        
+        <h2 class="mt-4">Headline:</h2>
+        <p>{{ headline }}</p>
+        
+        <h2 class="mt-4">Description:</h2>
+        <p>{{ description }}</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
