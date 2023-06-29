@@ -51,7 +51,7 @@ To run the News Classifier web application, follow these steps:
 
 * Clone the repository or download the source code files.
 
-* Download All other required files(.pkl, .npy, .h5 files) from [github link](https://github.com/shib1111111/News-Classifier/) 
+* Download All other required files(.pkl, .npy, .h5 files) from [github link](https://github.com/shib1111111/News-Classifier/README.md) 
 
 * Navigate to the project directory: ```cd news_classifier```
 
