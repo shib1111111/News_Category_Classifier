@@ -4,7 +4,8 @@ News Classifier is a web application that uses machine learning techniques to cl
 The file structure of the news_classifier application is as follows:
 ```
 news_classifier
-└───├── requirements.txt
+    └─────├── requirements.txt
+          ├── News_Category_Dataset_v3.json
           ├── main.py
           ├── scraping_module.py
           ├── prediction_module.py
@@ -19,13 +20,23 @@ news_classifier
 ## File Descriptions
 **requirements.txt**: A text file listing the required Python packages and their versions for running the application.
 
+**News_Category_Dataset_v3.json** : This dataset contains around 210k news headlines from 2012 to 2022 from HuffPost. This is one of the biggest news datasets and can serve as a benchmark for a variety of computational linguistic tasks. HuffPost stopped maintaining an extensive archive of news articles sometime after this dataset was first collected in 2018, so it is not possible to collect such a dataset in the present day. Due to changes in the website, there are about 200k headlines between 2012 and May 2018 and 10k headlines between May 2018 and 2022. [download link](https://drive.google.com/file/d/1ZIMwxLelFGsGAjgfvsSqOdq51QjmY97l/view?usp=sharing)
+ - **Content**
+      - Each record in the dataset consists of the following attributes:
+         - _category_: category in which the article was published.
+         - _headline_: the headline of the news article.
+         - _authors_: list of authors who contributed to the article.
+         - _link_: link to the original news article.
+         - _short_description_: Abstract of the news article.
+         - _date_: publication date of the article.
+
 **main.py**: The main Python file that runs the web application and handles the routing and requests.
 
 **scraping_module.py**: A Python module that handles web scraping functionality to retrieve news articles for classification.
 
 **prediction_module.py**: A Python module that contains functions for preprocessing input and predicting the category using the trained model.
 
-**trained_model.h5**: A trained machine learning model in HDF5 format, used for predicting the category of news articles.
+**trained_model.h5**: A trained machine learning model in HDF5 format, used for predicting the category of news articles. [download link](https://drive.google.com/file/d/14Bd5mNufOY3wW0JLENy3xeYSCxvLRzYF/view?usp=sharing)
 
 **categories.npy**: A NumPy file containing the list of categories used for classifying news articles.
 
