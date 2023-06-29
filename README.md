@@ -51,7 +51,7 @@ To run the News Classifier web application, follow these steps:
 
 * Clone the repository or download the source code files.
 
-* Download All other required files(.pkl, .npy, .h5 files) from [github link](https://github.com/shib1111111/News_Category_Classifier/edit/main/README.md)
+* Download All other required files(.pkl, .npy, .h5 files) from [github link](https://github.com/shib1111111/News_Category_Classifier/blob/main/README.md)
 * Navigate to the project directory: ```cd news_classifier```
 
 * (Optional) Create a virtual environment: ```python3 -m venv venv``` (for Linux/macOS) or ```python -m venv venv``` (for Windows).
