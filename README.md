@@ -194,8 +194,9 @@ The model trained using the News Classifier achieves an impressive accuracy of _
 ```
 The templates directory contains two HTML files: index.html and result.html. These templates are used to render the home page and the result page of the web application, respectively.
 
-### **License**
-This project is licensed under the MIT License.
+### License
+
+This project is licensed under the [MIT License](LICENSE).
 
 Thank you for viewing this repo! Feel free to reach out with any questions or feedback.
 
