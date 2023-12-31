@@ -197,4 +197,7 @@ The templates directory contains two HTML files: index.html and result.html. The
 ### **License**
 This project is licensed under the MIT License.
 
+Thank you for viewing this repo! Feel free to reach out with any questions or feedback.
+
+<em style="color: #ff66b2; font-weight: bold;">✨ --- Designed & made with Love by Shib Kumar Saraf ✨</em>
 
